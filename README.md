@@ -11,4 +11,4 @@
     Spacebar - 촬영
     key 'q'  - 종료  
 ### 2.2. vision_AI.py
-Google Vision API의 로컬 이미지의 표정 인식을 사용하는 코드입니다. 반환 받는 데이터를 그대로 출력해줍니다.
+Google Vision API의 로컬 이미지의 표정 인식을 사용하는 코드입니다. 반환 받은 감정에  데이터를 그대로 출력해줍니다.

@@ -11,7 +11,7 @@ def image_analyze():
 	client = vision.ImageAnnotatorClient()
 	
 	# The name of the image file to annotate
-	file_name = '.\captured.jpg' #'D:\KueNi\Programming\Python study\Vision-AI\Vision-AI\captured.jpg'
+	file_name = '.\captured.jpg'
 	
 	# Loads the image into memory in form of binary data
 	with io.open(file_name, 'rb') as image_file:

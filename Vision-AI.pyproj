@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b5ca72b4-33bd-4be9-b804-50aacda9f18d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>vision_AI.py</StartupFile>
+    <StartupFile>simple_test\main2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,10 +23,24 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="capture.py">
+    <Compile Include="request_test\request_try.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="vision_AI.py" />
+    <Compile Include="simple_test\main1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="simple_test\main2.py" />
+    <Compile Include="server_test\server.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="server_test\vision_AI.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="request_test\" />
+    <Folder Include="server_test\" />
+    <Folder Include="simple_test\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

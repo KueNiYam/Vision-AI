@@ -32,9 +32,9 @@ Vision-AI
 ### 2.3.1. main1.py  
 - 웹캠을 이용하여 사진을 촬영하는 소스 코드입니다.  
 - 조작 방법은 다음과 같습니다.  
-    
-    Spacebar - 촬영
-    key 'q'  - 종료
+
+      Spacebar - 촬영
+      key 'q'  - 종료
 
 ### 2.3.2. main2.py  
 - Google Vision API의 로컬 이미지 표정 인식을 사용하는 코드입니다.  

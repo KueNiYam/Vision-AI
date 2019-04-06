@@ -4,11 +4,22 @@
 사용 방법은 "capture.py" 파일을 실행하신 후 끝나면 "vision_AI.py" 파일을 실행하면 됩니다.
 
 ## 2. 구성
-### 2.1. capture.py  
+### 2.1. simple_test
+단순 테스트입니다.
+#### 2.1.1. capture.py  
 웹캠을 이용해 사진을 촬영하는 소스 코드입니다.
 조작 방법은 다음과 같습니다.  
 
     Spacebar - 촬영
     key 'q'  - 종료  
-### 2.2. vision_AI.py
-Google Vision API의 로컬 이미지의 표정 인식을 사용하는 코드입니다. 반환 받는 데이터를 그대로 출력해줍니다.
+#### 2.1.2. vision_AI.py
+Google Vision API의 로컬 이미지의 표정 인식을 사용하는 코드입니다. 반환 받은 감정에  데이터를 그대로 출력해줍니다.
+
+### 2.2. simple_server
+ - 작업 중 
+### 2.3. multithread_server
+ - 작업 중 
+### 2.4. multiprocess_server
+ - 작업 중 
+### 2.5. request
+ - 작업 중 

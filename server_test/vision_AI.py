@@ -11,7 +11,7 @@ def image_analyze(image_bytes: bytes) -> dict:
 	faces = response.face_annotations
 	face = faces[0]
 
-	return parse_faces(face)
+	return _parse_faces(face)
 
 def read_image(image_name: str) -> bytes:
 	with io.open(image_name, 'rb') as image_file:
@@ -19,7 +19,7 @@ def read_image(image_name: str) -> bytes:
 
 	return content
 
-def parse_faces(face) -> dict:
+def _parse_faces(face) -> dict:
 	face_data = {}
 
 	face_data['roll_angle'] = face.roll_angle
